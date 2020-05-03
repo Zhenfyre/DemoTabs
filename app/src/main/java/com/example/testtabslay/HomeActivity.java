@@ -34,11 +34,14 @@ public class HomeActivity extends AppCompatActivity {
         // attaching tab mediator
         new TabLayoutMediator(binding.tabLayout, binding.viewPager,
                 (tab, position) -> tab.setText(titles[position])).attach();
+
+        //for add tab icon
+       // binding.tabLayout.getTabAt(0).setIcon(R.drawable.ic_android_black_24dp);
     }
 
     private class ViewPagerFragmentAdapter extends FragmentStateAdapter {
 
-        public ViewPagerFragmentAdapter(@NonNull FragmentActivity fragmentActivity) {
+        ViewPagerFragmentAdapter(@NonNull FragmentActivity fragmentActivity) {
             super(fragmentActivity);
         }
 
