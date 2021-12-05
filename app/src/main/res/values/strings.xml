@@ -18,8 +18,8 @@
         to collect community provided water quality and health data.</string>
 
     <string name="slide_2_title">Water Testing Instructions</string>
-    <string name="slide_2_desc">We are using the H2O OK Plus home water test kit.  Click the
+    <string name="slide_2_desc">We are using the H2O OK Plus home water test kit.  Tap the
         YouTube video below for extra help using the test kit. </string>
-
+    <string name="video_url">https://www.youtube.com/watch?v=Gy1S61cpvik</string>
     <string name="slides_ended">Let\'s record your results.</string>
 </resources>

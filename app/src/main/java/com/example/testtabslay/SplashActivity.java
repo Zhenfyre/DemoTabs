@@ -5,6 +5,7 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Intent;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
@@ -38,7 +39,10 @@ public class SplashActivity extends AppCompatActivity{
 
     public void launchVideo(View view)
     {
-        Log.v("SplashActivity", "Launch the video");
+        String url = "https://www.youtube.com/watch?v=Gy1S61cpvik";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
     }
 
     private void init() {
