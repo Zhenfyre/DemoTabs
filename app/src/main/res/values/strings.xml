@@ -15,12 +15,11 @@
 
     <string name="slide_1_title">Welcome!</string>
     <string name="slide_1_desc">This application is developed by the Community Driven Flint team
-        to collect community provided water quality and health data for public awareness.</string>
+        to collect community provided water quality and health data.</string>
 
     <string name="slide_2_title">Water Testing Instructions</string>
-    <string name="slide_2_desc">We are using the H2O OK Plus home water test kit.  Please see
-        this YouTube video for extra help using the test kit.\n
-        https://www.youtube.com/watch?v=Gy1S61cpvik</string>
+    <string name="slide_2_desc">We are using the H2O OK Plus home water test kit.  Click the
+        YouTube video below for extra help using the test kit. </string>
 
     <string name="slides_ended">Let\'s record your results.</string>
 </resources>

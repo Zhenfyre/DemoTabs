@@ -4,22 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
+import android.util.Log;
 import android.view.MenuInflater;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.testtabslay.databinding.ActivitySplashBinding;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity{
     private ViewsSliderAdapter mAdapter;
     private TextView[] dots;
     private int[] layouts;
     private ActivitySplashBinding binding;
+    private ImageView mLaunch;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +33,12 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         init();
        // timerStart();
+
+    }
+
+    public void launchVideo(View view)
+    {
+        Log.v("SplashActivity", "Launch the video");
     }
 
     private void init() {
