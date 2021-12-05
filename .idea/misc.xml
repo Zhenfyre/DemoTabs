@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Public/Coding/cdfTabbed/app/src/main/res/layout/fragment_aesthetics.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Public/Coding/cdfTabbed/app/src/main/res/layout/fragment_bacteria.xml" value="0.25677083333333334" />
         <entry key="..\:/Users/Public/Coding/cdfTabbed/app/src/main/res/layout/fragment_collection.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Public/Coding/cdfTabbed/app/src/main/res/layout/fragment_movies.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Public/Coding/cdfTabbed/app/src/main/res/layout/fragment_teststrips.xml" value="0.25677083333333334" />
       </map>
     </option>
   </component>

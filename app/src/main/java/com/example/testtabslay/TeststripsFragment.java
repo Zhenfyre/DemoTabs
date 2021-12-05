@@ -12,9 +12,9 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TicketsFragment extends Fragment {
+public class TeststripsFragment extends Fragment {
 
-    public TicketsFragment() {
+    public TeststripsFragment() {
         // Required empty public constructor
     }
 
@@ -23,6 +23,6 @@ public class TicketsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tickets, container, false);
+        return inflater.inflate(R.layout.fragment_teststrips, container, false);
     }
 }
