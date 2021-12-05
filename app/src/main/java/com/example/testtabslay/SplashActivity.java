@@ -34,9 +34,7 @@ public class SplashActivity extends AppCompatActivity {
         // add few more layouts if you want
         layouts = new int[]{
                 R.layout.slide_one,
-                R.layout.slide_two,
-                R.layout.slide_three,
-                R.layout.slide_four};
+                R.layout.slide_two};
 
         mAdapter = new ViewsSliderAdapter();
         binding.viewPager.setAdapter(mAdapter);

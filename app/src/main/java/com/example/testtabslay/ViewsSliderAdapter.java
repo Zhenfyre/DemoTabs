@@ -14,9 +14,7 @@ public class ViewsSliderAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     public ViewsSliderAdapter() {
         layouts = new int[]{
                 R.layout.slide_one,
-                R.layout.slide_two,
-                R.layout.slide_three,
-                R.layout.slide_four};
+                R.layout.slide_two};
     }
 
     @NonNull
