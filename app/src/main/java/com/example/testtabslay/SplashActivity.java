@@ -56,9 +56,11 @@ public class SplashActivity extends AppCompatActivity {
             }
         });
 
+/*
         binding.iconMore.setOnClickListener(view -> {
             showMenu(view);
         });
+*/
 
         // adding bottom dots
         addBottomDots(0);
@@ -94,23 +96,6 @@ public class SplashActivity extends AppCompatActivity {
         Toast.makeText(this, R.string.slides_ended, Toast.LENGTH_LONG).show();
         timerStart();
         //finish();
-    }
-
-    private void showMenu(View view) {
-        PopupMenu popup = new PopupMenu(this, view);
-        MenuInflater inflater = popup.getMenuInflater();
-        inflater.inflate(R.menu.pager_transformers, popup.getMenu());
-        popup.setOnMenuItemClickListener(item -> {
-            if (item.getItemId() == R.id.action_orientation) {
-                binding.viewPager.setOrientation(ViewPager2.ORIENTATION_VERTICAL);
-            } else {
-                binding.viewPager.setPageTransformer(Utils.getTransformer(item.getItemId()));
-                binding.viewPager.setCurrentItem(0);
-                binding.viewPager.getAdapter().notifyDataSetChanged();
-            }
-            return false;
-        });
-        popup.show();
     }
 
     /*
