@@ -16,7 +16,7 @@ public class HomeActivity extends AppCompatActivity {
    private ActivityHomeBinding binding;
 
     // tab titles
-    private String[] titles = new String[]{"Movies", "Events", "Tickets"};
+    private String[] titles = new String[]{"Collection", "Aesthetics", "Tickets", "Movies"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,13 +50,15 @@ public class HomeActivity extends AppCompatActivity {
         public Fragment createFragment(int position) {
             switch (position) {
                 case 0:
-                    return new MoviesFragment();
+                    return new CollectionFragment();
                 case 1:
-                    return new EventsFragment();
+                    return new AestheticsFragment();
                 case 2:
                     return new TicketsFragment();
+                case 3:
+                    return new MoviesFragment();
             }
-            return new MoviesFragment();
+            return new CollectionFragment();
         }
 
         @Override

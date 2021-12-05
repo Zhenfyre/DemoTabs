@@ -2,7 +2,6 @@ package com.example.testtabslay.transformers;
 
 import android.view.View;
 
-import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 public class CubeOutRotationTransformation implements ViewPager2.PageTransformer {
