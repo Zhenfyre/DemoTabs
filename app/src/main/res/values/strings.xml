@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Submit Your Test Results</string>
+    <string name="app_name">Water Test Results</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_views_slider">ViewsSliderActivity</string>
     <!-- Strings used for fragments for navigation -->
@@ -12,10 +12,15 @@
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
+    <string name="submit">SUBMIT</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_long">Swipe left and right between tabs to enter all of your
+    results from your home test kits. When you have entered all of your results, click the Submit
+    button at the bottom.</string>
 
-    <string name="slide_1_title">Welcome!</string>
+        <string name="slide_1_title">Welcome!</string>
     <string name="slide_1_desc">This application is developed by the Community Driven Flint team
-        to collect community provided water quality and health data.</string>
+        to collect and share community provided water quality and health data.</string>
 
     <string name="slide_2_title">Water Testing Instructions</string>
     <string name="slide_2_desc">We are using the H2O OK Plus home water test kit.  Tap the
